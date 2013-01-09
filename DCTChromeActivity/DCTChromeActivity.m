@@ -8,6 +8,10 @@
 
 #import "DCTChromeActivity.h"
 
+NSString *const DCTChromeActivityHTTPScheme = @"http";
+NSString *const DCTChromeActivityChromeHTTPScheme = @"googlechrome";
+NSString *const DCTChromeActivityScheme = @"googlechrome://";
+
 @implementation DCTChromeActivity {
 	NSURL *_URL;
 }
@@ -25,7 +29,9 @@
 }
 
 - (BOOL)canPerformWithActivityItems:(NSArray *)activityItems {
-	return [self URLinActivityItems:activityItems] != nil;
+	BOOL hasURL = [self URLinActivityItems:activityItems] != nil;
+	if (!hasURL) return NO;
+	return [[UIApplication sharedApplication] canOpenURL:[NSURL URLWithString:DCTChromeActivityScheme]];
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems {
@@ -33,13 +39,20 @@
 }
 
 - (void)performActivity {
-	[[UIApplication sharedApplication] openURL:_URL];
+	NSString *URLString = [_URL.absoluteString stringByReplacingCharactersInRange:NSMakeRange(0, 4)
+																	   withString:DCTChromeActivityChromeHTTPScheme];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
 }
 
 - (NSURL *)URLinActivityItems:(NSArray *)activityItems {
 	__block NSURL *URL;
 	[activityItems enumerateObjectsUsingBlock:^(id object, NSUInteger idx, BOOL *stop) {
-		*stop = [object isKindOfClass:[NSURL class]];
+
+		if ([object isKindOfClass:[NSURL class]]) {
+			NSURL *URL = object;
+			*stop = [URL.scheme hasPrefix:DCTChromeActivityHTTPScheme];
+		}
+		
 		if (*stop) URL = object;
 	}];
 	return URL;
