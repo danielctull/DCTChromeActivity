@@ -82,6 +82,7 @@
 		24251108169D764300BAA861 /* DCTChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DCTChromeActivity.png; sourceTree = "<group>"; };
 		24251109169D764300BAA861 /* DCTChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DCTChromeActivity@2x.png"; sourceTree = "<group>"; };
 		24251111169D7EBA00BAA861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		244F132C17FEB1930016E94E /* Architectures.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Architectures.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +119,7 @@
 		242510AA169D6F0600BAA861 = {
 			isa = PBXGroup;
 			children = (
+				244F132C17FEB1930016E94E /* Architectures.xcconfig */,
 				242510BA169D6F0600BAA861 /* DCTChromeActivity */,
 				242510CD169D6F2500BAA861 /* DCTChromeActivityBundle */,
 				242510EC169D723E00BAA861 /* DCTChromeActivityDemo */,
@@ -421,6 +423,7 @@
 		};
 		242510C4169D6F0600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DCTChromeActivity.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -432,6 +435,7 @@
 		};
 		242510C5169D6F0600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/DCTChromeActivity.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -443,6 +447,7 @@
 		};
 		242510D5169D6F2600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
 			buildSettings = {
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -457,6 +462,7 @@
 		};
 		242510D6169D6F2600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
