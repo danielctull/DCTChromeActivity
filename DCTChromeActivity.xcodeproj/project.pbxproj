@@ -88,16 +88,17 @@
 		24251108169D764300BAA861 /* DCTChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DCTChromeActivity.png; sourceTree = "<group>"; };
 		24251109169D764300BAA861 /* DCTChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DCTChromeActivity@2x.png"; sourceTree = "<group>"; };
 		24251111169D7EBA00BAA861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		242BEF8919A9039E0063F2F2 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
-		242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bundle.xcconfig; sourceTree = "<group>"; };
-		242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
-		242BEF8D19A9039E0063F2F2 /* Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
-		242BEF8E19A9039E0063F2F2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		242BEF8F19A9039E0063F2F2 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
-		242BEF9019A9039E0063F2F2 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
 		242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTChromeActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		242BEFAC19A903EF0063F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		244DE81719A91B0500A91DC7 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		244DE81819A91B0500A91DC7 /* iOS Application.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS Application.xcconfig"; sourceTree = "<group>"; };
+		244DE81919A91B0500A91DC7 /* iOS Bundle.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS Bundle.xcconfig"; sourceTree = "<group>"; };
+		244DE81A19A91B0500A91DC7 /* iOS Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		244DE81B19A91B0500A91DC7 /* iOS Static Library.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS Static Library.xcconfig"; sourceTree = "<group>"; };
+		244DE81C19A91B0500A91DC7 /* iOS Tests.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iOS Tests.xcconfig"; sourceTree = "<group>"; };
+		244DE81D19A91B0500A91DC7 /* OS X Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OS X Framework.xcconfig"; sourceTree = "<group>"; };
+		244DE81E19A91B0500A91DC7 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		244DE81F19A91B0500A91DC7 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,7 +139,7 @@
 				242510BA169D6F0600BAA861 /* DCTChromeActivity */,
 				242510CD169D6F2500BAA861 /* DCTChromeActivity Bundle */,
 				242510EC169D723E00BAA861 /* DCTChromeActivity Demo */,
-				242BEF8819A9039E0063F2F2 /* Configurations */,
+				244DE81619A91B0500A91DC7 /* Configurations */,
 				242510B6169D6F0600BAA861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -191,17 +192,18 @@
 			path = "DCTChromeActivity Demo";
 			sourceTree = "<group>";
 		};
-		242BEF8819A9039E0063F2F2 /* Configurations */ = {
+		244DE81619A91B0500A91DC7 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				242BEF8919A9039E0063F2F2 /* Application.xcconfig */,
-				242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */,
-				242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */,
-				242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */,
-				242BEF8D19A9039E0063F2F2 /* Library.xcconfig */,
-				242BEF8E19A9039E0063F2F2 /* Release.xcconfig */,
-				242BEF8F19A9039E0063F2F2 /* Shared.xcconfig */,
-				242BEF9019A9039E0063F2F2 /* Tests.xcconfig */,
+				244DE81719A91B0500A91DC7 /* Debug.xcconfig */,
+				244DE81819A91B0500A91DC7 /* iOS Application.xcconfig */,
+				244DE81919A91B0500A91DC7 /* iOS Bundle.xcconfig */,
+				244DE81A19A91B0500A91DC7 /* iOS Framework.xcconfig */,
+				244DE81B19A91B0500A91DC7 /* iOS Static Library.xcconfig */,
+				244DE81C19A91B0500A91DC7 /* iOS Tests.xcconfig */,
+				244DE81D19A91B0500A91DC7 /* OS X Framework.xcconfig */,
+				244DE81E19A91B0500A91DC7 /* Release.xcconfig */,
+				244DE81F19A91B0500A91DC7 /* Shared.xcconfig */,
 			);
 			path = Configurations;
 			sourceTree = "<group>";
@@ -433,35 +435,35 @@
 /* Begin XCBuildConfiguration section */
 		242510C1169D6F0600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */;
+			baseConfigurationReference = 244DE81719A91B0500A91DC7 /* Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		242510C2169D6F0600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8E19A9039E0063F2F2 /* Release.xcconfig */;
+			baseConfigurationReference = 244DE81E19A91B0500A91DC7 /* Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		242510C4169D6F0600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8D19A9039E0063F2F2 /* Library.xcconfig */;
+			baseConfigurationReference = 244DE81B19A91B0500A91DC7 /* iOS Static Library.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		242510C5169D6F0600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8D19A9039E0063F2F2 /* Library.xcconfig */;
+			baseConfigurationReference = 244DE81B19A91B0500A91DC7 /* iOS Static Library.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
 		};
 		242510D5169D6F2600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */;
+			baseConfigurationReference = 244DE81919A91B0500A91DC7 /* iOS Bundle.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = DCTChromeActivity;
 			};
@@ -469,7 +471,7 @@
 		};
 		242510D6169D6F2600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */;
+			baseConfigurationReference = 244DE81919A91B0500A91DC7 /* iOS Bundle.xcconfig */;
 			buildSettings = {
 				PRODUCT_NAME = DCTChromeActivity;
 			};
@@ -477,7 +479,7 @@
 		};
 		242510FF169D723E00BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8919A9039E0063F2F2 /* Application.xcconfig */;
+			baseConfigurationReference = 244DE81819A91B0500A91DC7 /* iOS Application.xcconfig */;
 			buildSettings = {
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
@@ -485,7 +487,7 @@
 		};
 		24251100169D723E00BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8919A9039E0063F2F2 /* Application.xcconfig */;
+			baseConfigurationReference = 244DE81819A91B0500A91DC7 /* iOS Application.xcconfig */;
 			buildSettings = {
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
@@ -493,7 +495,7 @@
 		};
 		242BEFA719A903CE0063F2F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */;
+			baseConfigurationReference = 244DE81A19A91B0500A91DC7 /* iOS Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -506,7 +508,7 @@
 		};
 		242BEFA819A903CE0063F2F2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */;
+			baseConfigurationReference = 244DE81A19A91B0500A91DC7 /* iOS Framework.xcconfig */;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = NO;
 				CURRENT_PROJECT_VERSION = 1;
@@ -563,6 +565,7 @@
 				242BEFA819A903CE0063F2F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
