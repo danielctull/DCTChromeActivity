@@ -6,7 +6,11 @@
 //  Copyright (c) 2013 Daniel Tull. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+@import UIKit;
+
+//! Project version number and string for DCTChromeActivity.
+FOUNDATION_EXPORT double DCTChromeActivityVersionNumber;
+FOUNDATION_EXPORT const unsigned char DCTChromeActivityVersionString[];
 
 @interface DCTChromeActivity : UIActivity
 @end

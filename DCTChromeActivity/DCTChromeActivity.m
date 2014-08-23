@@ -8,13 +8,15 @@
 
 #import "DCTChromeActivity.h"
 
-NSString *const DCTChromeActivityHTTPScheme = @"http";
-NSString *const DCTChromeActivityChromeHTTPScheme = @"googlechrome";
-NSString *const DCTChromeActivityScheme = @"googlechrome://";
+static NSString *const DCTChromeActivityHTTPScheme = @"http";
+static NSString *const DCTChromeActivityChromeHTTPScheme = @"googlechrome";
+static NSString *const DCTChromeActivityScheme = @"googlechrome://";
 
-@implementation DCTChromeActivity {
-	NSURL *_URL;
-}
+@interface DCTChromeActivity ()
+@property (nonatomic, copy) NSURL *URL;
+@end
+
+@implementation DCTChromeActivity
 
 - (NSString *)activityType {
 	return [[NSBundle mainBundle] bundleIdentifier];
@@ -35,12 +37,12 @@ NSString *const DCTChromeActivityScheme = @"googlechrome://";
 }
 
 - (void)prepareWithActivityItems:(NSArray *)activityItems {
-	_URL = [self URLinActivityItems:activityItems];
+	self.URL = [self URLinActivityItems:activityItems];
 }
 
 - (void)performActivity {
-	NSString *URLString = [_URL.absoluteString stringByReplacingCharactersInRange:NSMakeRange(0, 4)
-																	   withString:DCTChromeActivityChromeHTTPScheme];
+	NSString *URLString = [self.URL.absoluteString stringByReplacingCharactersInRange:NSMakeRange(0, 4)
+																		   withString:DCTChromeActivityChromeHTTPScheme];
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:URLString]];
 }
 
@@ -50,6 +52,7 @@ NSString *const DCTChromeActivityScheme = @"googlechrome://";
 
 		if ([object isKindOfClass:[NSURL class]]) {
 			NSURL *URL = object;
+
 			*stop = [URL.scheme hasPrefix:DCTChromeActivityHTTPScheme];
 		}
 		
@@ -79,6 +82,10 @@ NSString *const DCTChromeActivityScheme = @"googlechrome://";
 	static NSBundle *bundle = nil;
 	static dispatch_once_t bundleToken;
 	dispatch_once(&bundleToken, ^{
+
+		bundle = [NSBundle bundleForClass:self];
+		if (bundle) return;
+
 		NSDirectoryEnumerator *enumerator = [[NSFileManager new] enumeratorAtURL:[[NSBundle mainBundle] bundleURL]
 													  includingPropertiesForKeys:nil
 																		 options:NSDirectoryEnumerationSkipsHiddenFiles

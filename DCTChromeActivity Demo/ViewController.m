@@ -6,15 +6,14 @@
 //  Copyright (c) 2013 Daniel Tull. All rights reserved.
 //
 
+@import DCTChromeActivity;
 #import "ViewController.h"
-#import <DCTChromeActivity/DCTChromeActivity.h>
 
 @interface ViewController () <UIPopoverControllerDelegate>
+@property (nonatomic) UIPopoverController *popover;
 @end
 
-@implementation ViewController {
-	UIPopoverController *_popoverController;
-}
+@implementation ViewController
 
 - (IBAction)showActivities:(UIButton *)sender {
 
@@ -29,18 +28,18 @@
 		return;
 	}
 
-	_popoverController = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
-	_popoverController.delegate = self;
+	self.popover = [[UIPopoverController alloc] initWithContentViewController:activityViewController];
+	self.popover.delegate = self;
 
-	[_popoverController presentPopoverFromRect:sender.frame
-										inView:self.view
-					  permittedArrowDirections:UIPopoverArrowDirectionAny
-									  animated:YES];
-	_popoverController.passthroughViews = @[];
+	[self.popover presentPopoverFromRect:sender.frame
+								  inView:self.view
+				permittedArrowDirections:UIPopoverArrowDirectionAny
+								animated:YES];
+	self.popover.passthroughViews = @[];
 }
 
 - (void)popoverControllerDidDismissPopover:(UIPopoverController *)popoverController {
-	_popoverController = nil;
+	self.popover = nil;
 }
 
 @end

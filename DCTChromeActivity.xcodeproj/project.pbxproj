@@ -7,28 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		242510B9169D6F0600BAA861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510B8169D6F0600BAA861 /* Foundation.framework */; };
 		242510BE169D6F0600BAA861 /* DCTChromeActivity.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 242510BD169D6F0600BAA861 /* DCTChromeActivity.h */; };
 		242510C0169D6F0600BAA861 /* DCTChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 242510BF169D6F0600BAA861 /* DCTChromeActivity.m */; };
-		242510CC169D6F2500BAA861 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510CB169D6F2500BAA861 /* CoreFoundation.framework */; };
 		242510DB169D706A00BAA861 /* DCTChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510D9169D706A00BAA861 /* DCTChromeActivity~ipad.png */; };
 		242510DC169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510DA169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png */; };
-		242510E8169D723E00BAA861 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510E7169D723E00BAA861 /* UIKit.framework */; };
-		242510E9169D723E00BAA861 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510B8169D6F0600BAA861 /* Foundation.framework */; };
-		242510EB169D723E00BAA861 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510EA169D723E00BAA861 /* CoreGraphics.framework */; };
-		242510F1169D723E00BAA861 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 242510EF169D723E00BAA861 /* InfoPlist.strings */; };
 		242510F3169D723E00BAA861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 242510F2169D723E00BAA861 /* main.m */; };
 		242510F7169D723E00BAA861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 242510F6169D723E00BAA861 /* AppDelegate.m */; };
-		242510F9169D723E00BAA861 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510F8169D723E00BAA861 /* Default.png */; };
-		242510FB169D723E00BAA861 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510FA169D723E00BAA861 /* Default@2x.png */; };
-		242510FD169D723E00BAA861 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510FC169D723E00BAA861 /* Default-568h@2x.png */; };
 		24251104169D725B00BAA861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24251102169D725B00BAA861 /* ViewController.m */; };
 		24251105169D725B00BAA861 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24251103169D725B00BAA861 /* ViewController.xib */; };
-		24251107169D72AC00BAA861 /* DCTChromeActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 242510CA169D6F2500BAA861 /* DCTChromeActivity.bundle */; };
 		2425110A169D764300BAA861 /* DCTChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 24251108169D764300BAA861 /* DCTChromeActivity.png */; };
 		2425110B169D764300BAA861 /* DCTChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24251109169D764300BAA861 /* DCTChromeActivity@2x.png */; };
 		24251110169D7EBA00BAA861 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24251112169D7EBA00BAA861 /* Localizable.strings */; };
-		2488457C169D94510069E80C /* libDCTChromeActivity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 242510B5169D6F0600BAA861 /* libDCTChromeActivity.a */; };
+		242BEFB019A906540063F2F2 /* DCTChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 242510BF169D6F0600BAA861 /* DCTChromeActivity.m */; };
+		242BEFB119A906590063F2F2 /* DCTChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 242510BD169D6F0600BAA861 /* DCTChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		242BEFB219A906620063F2F2 /* DCTChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 24251108169D764300BAA861 /* DCTChromeActivity.png */; };
+		242BEFB319A906620063F2F2 /* DCTChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24251109169D764300BAA861 /* DCTChromeActivity@2x.png */; };
+		242BEFB419A906620063F2F2 /* DCTChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510D9169D706A00BAA861 /* DCTChromeActivity~ipad.png */; };
+		242BEFB519A906620063F2F2 /* DCTChromeActivity~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510DA169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png */; };
+		242BEFB619A906620063F2F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24251112169D7EBA00BAA861 /* Localizable.strings */; };
+		242BEFB819A9070C0063F2F2 /* DCTChromeActivity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +35,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = 242510C9169D6F2500BAA861;
 			remoteInfo = DCTSafariActivityBundle;
+		};
+		242BEFB919A9070C0063F2F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 242510AC169D6F0600BAA861 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242BEF9519A903CE0063F2F2;
+			remoteInfo = "DCTChromeActivity iOS";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -52,37 +56,48 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		242BEFBB19A9070C0063F2F2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				242BEFB819A9070C0063F2F2 /* DCTChromeActivity.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		242510B5169D6F0600BAA861 /* libDCTChromeActivity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDCTChromeActivity.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		242510B8169D6F0600BAA861 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		242510BD169D6F0600BAA861 /* DCTChromeActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCTChromeActivity.h; sourceTree = "<group>"; };
 		242510BF169D6F0600BAA861 /* DCTChromeActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCTChromeActivity.m; sourceTree = "<group>"; };
 		242510CA169D6F2500BAA861 /* DCTChromeActivity.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCTChromeActivity.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		242510CB169D6F2500BAA861 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
-		242510CF169D6F2500BAA861 /* DCTChromeActivityBundle-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTChromeActivityBundle-Info.plist"; sourceTree = "<group>"; };
+		242510CF169D6F2500BAA861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242510D9169D706A00BAA861 /* DCTChromeActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DCTChromeActivity~ipad.png"; sourceTree = "<group>"; };
 		242510DA169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DCTChromeActivity~ipad@2x.png"; sourceTree = "<group>"; };
-		242510E5169D723E00BAA861 /* Chrome Activity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Chrome Activity.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		242510E7169D723E00BAA861 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		242510EA169D723E00BAA861 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		242510EE169D723E00BAA861 /* DCTChromeActivityDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCTChromeActivityDemo-Info.plist"; sourceTree = "<group>"; };
-		242510F0169D723E00BAA861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		242510E5169D723E00BAA861 /* DCTChromeActivity Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DCTChromeActivity Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		242510EE169D723E00BAA861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		242510F2169D723E00BAA861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		242510F4169D723E00BAA861 /* DCTChromeActivityDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCTChromeActivityDemo-Prefix.pch"; sourceTree = "<group>"; };
 		242510F5169D723E00BAA861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		242510F6169D723E00BAA861 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		242510F8169D723E00BAA861 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		242510FA169D723E00BAA861 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		242510FC169D723E00BAA861 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		24251101169D725B00BAA861 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		24251102169D725B00BAA861 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		24251103169D725B00BAA861 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		24251108169D764300BAA861 /* DCTChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DCTChromeActivity.png; sourceTree = "<group>"; };
 		24251109169D764300BAA861 /* DCTChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "DCTChromeActivity@2x.png"; sourceTree = "<group>"; };
 		24251111169D7EBA00BAA861 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		244F132C17FEB1930016E94E /* Architectures.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Architectures.xcconfig; sourceTree = "<group>"; };
+		242BEF8919A9039E0063F2F2 /* Application.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Application.xcconfig; sourceTree = "<group>"; };
+		242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Bundle.xcconfig; sourceTree = "<group>"; };
+		242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "iOS Framework.xcconfig"; sourceTree = "<group>"; };
+		242BEF8D19A9039E0063F2F2 /* Library.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Library.xcconfig; sourceTree = "<group>"; };
+		242BEF8E19A9039E0063F2F2 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		242BEF8F19A9039E0063F2F2 /* Shared.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		242BEF9019A9039E0063F2F2 /* Tests.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Tests.xcconfig; sourceTree = "<group>"; };
+		242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DCTChromeActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		242BEFAC19A903EF0063F2F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +105,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				242510B9169D6F0600BAA861 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +112,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				242510CC169D6F2500BAA861 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -106,10 +119,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2488457C169D94510069E80C /* libDCTChromeActivity.a in Frameworks */,
-				242510E8169D723E00BAA861 /* UIKit.framework in Frameworks */,
-				242510E9169D723E00BAA861 /* Foundation.framework in Frameworks */,
-				242510EB169D723E00BAA861 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242BEF9219A903CE0063F2F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,11 +135,10 @@
 		242510AA169D6F0600BAA861 = {
 			isa = PBXGroup;
 			children = (
-				244F132C17FEB1930016E94E /* Architectures.xcconfig */,
 				242510BA169D6F0600BAA861 /* DCTChromeActivity */,
-				242510CD169D6F2500BAA861 /* DCTChromeActivityBundle */,
-				242510EC169D723E00BAA861 /* DCTChromeActivityDemo */,
-				242510B7169D6F0600BAA861 /* Frameworks */,
+				242510CD169D6F2500BAA861 /* DCTChromeActivity Bundle */,
+				242510EC169D723E00BAA861 /* DCTChromeActivity Demo */,
+				242BEF8819A9039E0063F2F2 /* Configurations */,
 				242510B6169D6F0600BAA861 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,20 +148,10 @@
 			children = (
 				242510B5169D6F0600BAA861 /* libDCTChromeActivity.a */,
 				242510CA169D6F2500BAA861 /* DCTChromeActivity.bundle */,
-				242510E5169D723E00BAA861 /* Chrome Activity.app */,
+				242510E5169D723E00BAA861 /* DCTChromeActivity Demo.app */,
+				242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		242510B7169D6F0600BAA861 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				242510B8169D6F0600BAA861 /* Foundation.framework */,
-				242510CB169D6F2500BAA861 /* CoreFoundation.framework */,
-				242510E7169D723E00BAA861 /* UIKit.framework */,
-				242510EA169D723E00BAA861 /* CoreGraphics.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		242510BA169D6F0600BAA861 /* DCTChromeActivity */ = {
@@ -154,24 +159,25 @@
 			children = (
 				242510BD169D6F0600BAA861 /* DCTChromeActivity.h */,
 				242510BF169D6F0600BAA861 /* DCTChromeActivity.m */,
+				242BEFAC19A903EF0063F2F2 /* Info.plist */,
 			);
 			path = DCTChromeActivity;
 			sourceTree = "<group>";
 		};
-		242510CD169D6F2500BAA861 /* DCTChromeActivityBundle */ = {
+		242510CD169D6F2500BAA861 /* DCTChromeActivity Bundle */ = {
 			isa = PBXGroup;
 			children = (
 				24251108169D764300BAA861 /* DCTChromeActivity.png */,
 				24251109169D764300BAA861 /* DCTChromeActivity@2x.png */,
 				242510D9169D706A00BAA861 /* DCTChromeActivity~ipad.png */,
 				242510DA169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png */,
-				242510CF169D6F2500BAA861 /* DCTChromeActivityBundle-Info.plist */,
+				242510CF169D6F2500BAA861 /* Info.plist */,
 				24251112169D7EBA00BAA861 /* Localizable.strings */,
 			);
-			path = DCTChromeActivityBundle;
+			path = "DCTChromeActivity Bundle";
 			sourceTree = "<group>";
 		};
-		242510EC169D723E00BAA861 /* DCTChromeActivityDemo */ = {
+		242510EC169D723E00BAA861 /* DCTChromeActivity Demo */ = {
 			isa = PBXGroup;
 			children = (
 				242510F5169D723E00BAA861 /* AppDelegate.h */,
@@ -179,26 +185,39 @@
 				24251101169D725B00BAA861 /* ViewController.h */,
 				24251102169D725B00BAA861 /* ViewController.m */,
 				24251103169D725B00BAA861 /* ViewController.xib */,
-				242510ED169D723E00BAA861 /* Supporting Files */,
+				242510EE169D723E00BAA861 /* Info.plist */,
+				242510F2169D723E00BAA861 /* main.m */,
 			);
-			path = DCTChromeActivityDemo;
+			path = "DCTChromeActivity Demo";
 			sourceTree = "<group>";
 		};
-		242510ED169D723E00BAA861 /* Supporting Files */ = {
+		242BEF8819A9039E0063F2F2 /* Configurations */ = {
 			isa = PBXGroup;
 			children = (
-				242510EE169D723E00BAA861 /* DCTChromeActivityDemo-Info.plist */,
-				242510EF169D723E00BAA861 /* InfoPlist.strings */,
-				242510F2169D723E00BAA861 /* main.m */,
-				242510F4169D723E00BAA861 /* DCTChromeActivityDemo-Prefix.pch */,
-				242510F8169D723E00BAA861 /* Default.png */,
-				242510FA169D723E00BAA861 /* Default@2x.png */,
-				242510FC169D723E00BAA861 /* Default-568h@2x.png */,
+				242BEF8919A9039E0063F2F2 /* Application.xcconfig */,
+				242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */,
+				242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */,
+				242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */,
+				242BEF8D19A9039E0063F2F2 /* Library.xcconfig */,
+				242BEF8E19A9039E0063F2F2 /* Release.xcconfig */,
+				242BEF8F19A9039E0063F2F2 /* Shared.xcconfig */,
+				242BEF9019A9039E0063F2F2 /* Tests.xcconfig */,
 			);
-			name = "Supporting Files";
+			path = Configurations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		242BEF9319A903CE0063F2F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242BEFB119A906590063F2F2 /* DCTChromeActivity.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		242510B4169D6F0600BAA861 /* DCTChromeActivity */ = {
@@ -219,9 +238,9 @@
 			productReference = 242510B5169D6F0600BAA861 /* libDCTChromeActivity.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		242510C9169D6F2500BAA861 /* DCTChromeActivityBundle */ = {
+		242510C9169D6F2500BAA861 /* DCTChromeActivity Bundle */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 242510D4169D6F2600BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivityBundle" */;
+			buildConfigurationList = 242510D4169D6F2600BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivity Bundle" */;
 			buildPhases = (
 				242510C6169D6F2500BAA861 /* Sources */,
 				242510C7169D6F2500BAA861 /* Frameworks */,
@@ -231,27 +250,47 @@
 			);
 			dependencies = (
 			);
-			name = DCTChromeActivityBundle;
+			name = "DCTChromeActivity Bundle";
 			productName = DCTSafariActivityBundle;
 			productReference = 242510CA169D6F2500BAA861 /* DCTChromeActivity.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
-		242510E4169D723E00BAA861 /* DCTChromeActivityDemo */ = {
+		242510E4169D723E00BAA861 /* DCTChromeActivity Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 242510FE169D723E00BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivityDemo" */;
+			buildConfigurationList = 242510FE169D723E00BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivity Demo" */;
 			buildPhases = (
 				242510E1169D723E00BAA861 /* Sources */,
 				242510E2169D723E00BAA861 /* Frameworks */,
 				242510E3169D723E00BAA861 /* Resources */,
+				242BEFBB19A9070C0063F2F2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				242BEFBA19A9070C0063F2F2 /* PBXTargetDependency */,
+			);
+			name = "DCTChromeActivity Demo";
+			productName = DCTSafariActivityDemo;
+			productReference = 242510E5169D723E00BAA861 /* DCTChromeActivity Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		242BEF9519A903CE0063F2F2 /* DCTChromeActivity iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 242BEFA619A903CE0063F2F2 /* Build configuration list for PBXNativeTarget "DCTChromeActivity iOS" */;
+			buildPhases = (
+				242BEF9119A903CE0063F2F2 /* Sources */,
+				242BEF9219A903CE0063F2F2 /* Frameworks */,
+				242BEF9319A903CE0063F2F2 /* Headers */,
+				242BEF9419A903CE0063F2F2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = DCTChromeActivityDemo;
-			productName = DCTSafariActivityDemo;
-			productReference = 242510E5169D723E00BAA861 /* Chrome Activity.app */;
-			productType = "com.apple.product-type.application";
+			name = "DCTChromeActivity iOS";
+			productName = "DCTChromeActivity iOS";
+			productReference = 242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -261,6 +300,11 @@
 			attributes = {
 				LastUpgradeCheck = 0450;
 				ORGANIZATIONNAME = "Daniel Tull";
+				TargetAttributes = {
+					242BEF9519A903CE0063F2F2 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
 			};
 			buildConfigurationList = 242510AF169D6F0600BAA861 /* Build configuration list for PBXProject "DCTChromeActivity" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -284,8 +328,9 @@
 			projectRoot = "";
 			targets = (
 				242510B4169D6F0600BAA861 /* DCTChromeActivity */,
-				242510C9169D6F2500BAA861 /* DCTChromeActivityBundle */,
-				242510E4169D723E00BAA861 /* DCTChromeActivityDemo */,
+				242BEF9519A903CE0063F2F2 /* DCTChromeActivity iOS */,
+				242510C9169D6F2500BAA861 /* DCTChromeActivity Bundle */,
+				242510E4169D723E00BAA861 /* DCTChromeActivity Demo */,
 			);
 		};
 /* End PBXProject section */
@@ -307,12 +352,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24251107169D72AC00BAA861 /* DCTChromeActivity.bundle in Resources */,
-				242510F1169D723E00BAA861 /* InfoPlist.strings in Resources */,
-				242510F9169D723E00BAA861 /* Default.png in Resources */,
-				242510FB169D723E00BAA861 /* Default@2x.png in Resources */,
-				242510FD169D723E00BAA861 /* Default-568h@2x.png in Resources */,
 				24251105169D725B00BAA861 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		242BEF9419A903CE0063F2F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242BEFB219A906620063F2F2 /* DCTChromeActivity.png in Resources */,
+				242BEFB319A906620063F2F2 /* DCTChromeActivity@2x.png in Resources */,
+				242BEFB419A906620063F2F2 /* DCTChromeActivity~ipad.png in Resources */,
+				242BEFB519A906620063F2F2 /* DCTChromeActivity~ipad@2x.png in Resources */,
+				242BEFB619A906620063F2F2 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,25 +396,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		242BEF9119A903CE0063F2F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				242BEFB019A906540063F2F2 /* DCTChromeActivity.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		242510D8169D6F5800BAA861 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 242510C9169D6F2500BAA861 /* DCTChromeActivityBundle */;
+			target = 242510C9169D6F2500BAA861 /* DCTChromeActivity Bundle */;
 			targetProxy = 242510D7169D6F5800BAA861 /* PBXContainerItemProxy */;
+		};
+		242BEFBA19A9070C0063F2F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 242BEF9519A903CE0063F2F2 /* DCTChromeActivity iOS */;
+			targetProxy = 242BEFB919A9070C0063F2F2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		242510EF169D723E00BAA861 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				242510F0169D723E00BAA861 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		24251112169D7EBA00BAA861 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -376,130 +433,87 @@
 /* Begin XCBuildConfiguration section */
 		242510C1169D6F0600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8B19A9039E0063F2F2 /* Debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		242510C2169D6F0600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8E19A9039E0063F2F2 /* Release.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		242510C4169D6F0600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
+			baseConfigurationReference = 242BEF8D19A9039E0063F2F2 /* Library.xcconfig */;
 			buildSettings = {
-				DSTROOT = /tmp/DCTChromeActivity.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = DCTChromeActivity;
-				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
 		242510C5169D6F0600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
+			baseConfigurationReference = 242BEF8D19A9039E0063F2F2 /* Library.xcconfig */;
 			buildSettings = {
-				DSTROOT = /tmp/DCTChromeActivity.dst;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = DCTChromeActivity;
-				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
 		242510D5169D6F2600BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
+			baseConfigurationReference = 242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */;
 			buildSettings = {
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "DCTChromeActivityBundle/DCTChromeActivityBundle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = DCTChromeActivity;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
 		242510D6169D6F2600BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 244F132C17FEB1930016E94E /* Architectures.xcconfig */;
+			baseConfigurationReference = 242BEF8A19A9039E0063F2F2 /* Bundle.xcconfig */;
 			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				INFOPLIST_FILE = "DCTChromeActivityBundle/DCTChromeActivityBundle-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
 				PRODUCT_NAME = DCTChromeActivity;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
 		242510FF169D723E00BAA861 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8919A9039E0063F2F2 /* Application.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTChromeActivityDemo/DCTChromeActivityDemo-Prefix.pch";
-				INFOPLIST_FILE = "DCTChromeActivityDemo/DCTChromeActivityDemo-Info.plist";
-				PRODUCT_NAME = "Chrome Activity";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 			};
 			name = Debug;
 		};
 		24251100169D723E00BAA861 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8919A9039E0063F2F2 /* Application.xcconfig */;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "DCTChromeActivityDemo/DCTChromeActivityDemo-Prefix.pch";
-				INFOPLIST_FILE = "DCTChromeActivityDemo/DCTChromeActivityDemo-Info.plist";
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				PRODUCT_NAME = "Chrome Activity";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = app;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			};
+			name = Release;
+		};
+		242BEFA719A903CE0063F2F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DCTChromeActivity;
+			};
+			name = Debug;
+		};
+		242BEFA819A903CE0063F2F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 242BEF8C19A9039E0063F2F2 /* iOS Framework.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = DCTChromeActivity;
 			};
 			name = Release;
 		};
@@ -524,7 +538,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		242510D4169D6F2600BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivityBundle" */ = {
+		242510D4169D6F2600BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivity Bundle" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				242510D5169D6F2600BAA861 /* Debug */,
@@ -533,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		242510FE169D723E00BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivityDemo" */ = {
+		242510FE169D723E00BAA861 /* Build configuration list for PBXNativeTarget "DCTChromeActivity Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				242510FF169D723E00BAA861 /* Debug */,
@@ -541,6 +555,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		242BEFA619A903CE0063F2F2 /* Build configuration list for PBXNativeTarget "DCTChromeActivity iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242BEFA719A903CE0063F2F2 /* Debug */,
+				242BEFA819A903CE0063F2F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
