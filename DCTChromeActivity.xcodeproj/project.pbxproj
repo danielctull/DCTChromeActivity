@@ -26,6 +26,7 @@
 		242BEFB519A906620063F2F2 /* DCTChromeActivity~ipad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 242510DA169D706A00BAA861 /* DCTChromeActivity~ipad@2x.png */; };
 		242BEFB619A906620063F2F2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 24251112169D7EBA00BAA861 /* Localizable.strings */; };
 		242BEFB819A9070C0063F2F2 /* DCTChromeActivity.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 242BEF9619A903CE0063F2F2 /* DCTChromeActivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		244DE92219A939AB00A91DC7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 244DE92119A939AB00A91DC7 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +100,7 @@
 		244DE81D19A91B0500A91DC7 /* OS X Framework.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "OS X Framework.xcconfig"; sourceTree = "<group>"; };
 		244DE81E19A91B0500A91DC7 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		244DE81F19A91B0500A91DC7 /* Shared.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Shared.xcconfig; sourceTree = "<group>"; };
+		244DE92119A939AB00A91DC7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				24251102169D725B00BAA861 /* ViewController.m */,
 				24251103169D725B00BAA861 /* ViewController.xib */,
 				242510EE169D723E00BAA861 /* Info.plist */,
+				244DE92119A939AB00A91DC7 /* Images.xcassets */,
 				242510F2169D723E00BAA861 /* main.m */,
 			);
 			path = "DCTChromeActivity Demo";
@@ -355,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				24251105169D725B00BAA861 /* ViewController.xib in Resources */,
+				244DE92219A939AB00A91DC7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
