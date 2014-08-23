@@ -79,13 +79,12 @@ static NSString *const DCTChromeActivityScheme = @"googlechrome://";
 }
 
 + (NSBundle *)bundle {
+#ifdef FRAMEWORK
+	return [NSBundle bundleForClass:self];
+#else
 	static NSBundle *bundle = nil;
 	static dispatch_once_t bundleToken;
 	dispatch_once(&bundleToken, ^{
-
-		bundle = [NSBundle bundleForClass:self];
-		if (bundle) return;
-
 		NSDirectoryEnumerator *enumerator = [[NSFileManager new] enumeratorAtURL:[[NSBundle mainBundle] bundleURL]
 													  includingPropertiesForKeys:nil
 																		 options:NSDirectoryEnumerationSkipsHiddenFiles
@@ -97,6 +96,7 @@ static NSString *const DCTChromeActivityScheme = @"googlechrome://";
 				bundle = [NSBundle bundleWithURL:URL];
 	});
 	return bundle;
+#endif
 }
 
 @end
